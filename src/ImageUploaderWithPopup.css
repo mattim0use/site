@@ -1,0 +1,57 @@
+.create-tribute-button {
+    display: inline-block;
+    position: absolute;
+    left: 2.8vw;
+    padding: auto;
+    background-color: (160, 1, 41);
+    color: white;
+    border: 0;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.button {
+    color: #fff;
+    text-align: center;
+    background-color: #a00129;
+    border-radius: 3px;
+    margin-right: 0;
+    padding: 20px 40px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    transition: background-color .5s cubic-bezier(.789, .159, .25, 1), color .2s cubic-bezier(.789, .159, .25, 1);
+    display: inline-block;
+  }
+
+@media screen and (max-width: 480px) {
+    .create-tribute-button {
+        color: #fff;
+        text-align: center;
+        background-color: #a00129;
+        border-radius: 3px;
+        margin-right: 0;
+        padding: 20px 40px;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 26px;
+        transition: background-color .5s cubic-bezier(.789, .159, .25, 1), color .2s cubic-bezier(.789, .159, .25, 1);
+        display: inline-block;
+    }
+
+    .button {
+        color: #fff;
+        text-align: center;
+        background-color: #a00129;
+        border-radius: 3px;
+        margin-right: 0;
+        padding: 20px 40px;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 26px;
+        transition: background-color .5s cubic-bezier(.789, .159, .25, 1), color .2s cubic-bezier(.789, .159, .25, 1);
+        display: inline-block;
+    }
+}
